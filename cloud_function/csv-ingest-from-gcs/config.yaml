@@ -1,0 +1,6 @@
+trigger_dag:
+  target_project_id: pj-utilisation-vis
+  target_dataset: csv_package_testing
+  target_bucket: csv-package-test
+  cloud_composer_url: https://https://0a1b2b717261454690b56c313786c775-dot-europe-west4.composer.googleusercontent.com
+  dag_id: csv_ingestion_test
